@@ -61,7 +61,7 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             total1 = total1 + total1/100;
             total1 = total1 + mounth1;
-            System.out.println("Месяц " + i + ", сумма накоплений равно " + total1 + " рублей");
+            System.out.println("Месяц " + i + ", сумма накоплений равно " + String.format("%.2f", total1) + " рублей");
         }
     }
 }
